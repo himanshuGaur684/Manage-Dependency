@@ -1,0 +1,19 @@
+[versions]
+coreVersion = "1.8.0"
+constraintLayout = "2.1.4"
+
+
+[libraries]
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreVersion" }
+constraint-layout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintLayout" }
+
+[plugins]
+android-application = { id = "com.android.application", version = "8.0.1" }
+
+[bundles]
+
+base = ["core-ktx", "constraint-layout"]
+
+
+
+
